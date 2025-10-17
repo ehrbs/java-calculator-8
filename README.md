@@ -21,5 +21,6 @@ ___
 - [ ] 커스텀 구분자로 구분된 숫자들의 합을 반환한다. (예: "//;\n1;2;3" → 6)
 
 3. 예외 처리
-- [ ] 음수를 전달할 경우 IllegalArgumentException을 발생시킨다.
-- [ ] 숫자가 아닌 값을 입력할 경우 IllegalArgumentException을 발생시킨다. (예: "1,a,2")
+- [x] 음수를 전달할 경우 IllegalArgumentException을 발생시킨다.
+- [x] 숫자가 아닌 값을 입력할 경우 IllegalArgumentException을 발생시킨다. (예: "1,a,2")
+- [x] 구분자가 연속으로 들어가 있을 경우 IllegalArgumentException을 발생시킨다. (예: "1,,")
