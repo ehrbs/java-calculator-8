@@ -12,7 +12,7 @@ public class Application {
 
         int result = calculator.calculate(input);
 
-        System.out.println(result);
+        System.out.println("결과 : " + result);
 
     }
 }
